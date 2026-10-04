@@ -1,12 +1,14 @@
 # Telescopic Jib Crane Design for Forklift
 
-![Jib Crane](images/Hero.JPG)
+<p align="center">
+<img src="images/Hero.JPG" width="850">
+</p>
 
 ## Overview
 
 This project focuses on the mechanical design and structural development of a telescopic jib crane attachment for a 3-ton forklift.
 
-The objective was to create a compact and manufacturable lifting attachment capable of handling a 1.5-ton load while maintaining structural safety and adjustable reach.
+The objective was to develop a compact, manufacturable lifting attachment capable of handling a 1.5-ton load while maintaining structural safety, adjustable reach, and practical manufacturing requirements.
 
 ---
 
@@ -21,6 +23,18 @@ The objective was to create a compact and manufacturable lifting attachment capa
 
 ---
 
+## Design Process
+
+The design was developed through the following engineering workflow:
+
+1. Requirement definition and load estimation
+2. Mechanical concept development
+3. 3D CAD modeling and assembly design
+4. Structural verification using FEA
+5. Manufacturing and assembly considerations
+
+---
+
 ## Key Specifications
 
 | Parameter | Value |
@@ -28,7 +42,7 @@ The objective was to create a compact and manufacturable lifting attachment capa
 | Forklift Capacity | 3 tons |
 | Designed Load Capacity | 1.5 tons |
 | Maximum Reach | 2.5 m |
-| Safety Factor | >4 |
+| Safety Factor | ≈6 |
 | Extension Step | 100 mm |
 | Tilt Adjustment | 0°–45° |
 | Material | ST52 Structural Steel (Assumed) |
@@ -37,7 +51,7 @@ The objective was to create a compact and manufacturable lifting attachment capa
 
 ## CAD Development
 
-The complete assembly was designed using SolidWorks 2024.
+The complete assembly was designed using **SolidWorks 2024**.
 
 The model includes:
 
@@ -47,35 +61,58 @@ The model includes:
 - Reinforcement plates
 - Bolted connections
 
-![Design Detail](images/Detail.JPG)
+<p align="center">
+<img src="images/Detail.JPG" width="850">
+</p>
 
 ---
 
-## Structural Simulation
+# Structural Simulation
 
-Static structural analysis was performed using SolidWorks Simulation to evaluate the mechanical performance under loading conditions.
+Static structural analysis was performed using **SolidWorks Simulation** to evaluate the mechanical performance of the structure under loading conditions.
 
-### Stress Analysis
+## Simulation Setup
 
-Von Mises stress distribution was evaluated.
+The analysis was performed based on the following assumptions:
 
-![Stress Analysis](images/Stress.png)
+- Fixed support applied at the forklift fork mounting region
+- Vertical lifting load applied at the boom tip
+- Linear elastic material behavior
+- ST52 structural steel material properties
 
-Maximum stress:
+---
+
+## Stress Analysis
+
+Von Mises stress distribution was evaluated to verify structural strength.
+
+<p align="center">
+<img src="images/Stress.png" width="850">
+</p>
+
+Maximum von Mises stress:
 
 ```
 58.75 MPa
 ```
 
-The obtained stress level indicates acceptable structural performance for the selected design conditions.
+Based on the assumed yield strength of ST52 structural steel:
+
+```
+Safety Factor ≈ 6
+```
+
+The obtained stress level indicates acceptable structural performance under the considered loading condition.
 
 ---
 
-### Displacement Analysis
+## Displacement Analysis
 
-Maximum deformation was evaluated to ensure acceptable structural rigidity.
+Maximum deformation was evaluated to assess the structural rigidity.
 
-![Displacement Analysis](images/displacement.png)
+<p align="center">
+<img src="images/displacement.png" width="850">
+</p>
 
 Maximum displacement:
 
@@ -83,22 +120,34 @@ Maximum displacement:
 9.97 mm
 ```
 
-The deformation results were used to assess the stiffness of the structure under the applied loading condition.
+The deformation results were used to evaluate stiffness and serviceability of the structure under the applied loading condition.
 
 ---
 
-## Manufacturing Considerations
+# Manufacturing Considerations
 
-The design was developed considering real manufacturing constraints:
+The design was developed considering practical manufacturing constraints:
 
 - Welded steel structure
 - Standard fasteners
 - Machinable components
 - Assembly and maintenance accessibility
+- Manufacturing-oriented geometry
 
 ---
 
-## Software & Tools
+# Project Files
+
+Available project files include:
+
+- SolidWorks assembly and part files
+- Engineering drawings
+- Structural simulation results
+- Rendered visualization images
+
+---
+
+# Software & Tools
 
 - SolidWorks 2024
 - SolidWorks Simulation
@@ -109,10 +158,11 @@ The design was developed considering real manufacturing constraints:
 
 ---
 
-## Project Skills Demonstrated
+# Project Skills Demonstrated
 
 - Mechanical System Design
 - 3D CAD Assembly
 - Structural Design
 - Finite Element Analysis
 - Manufacturing-Oriented Engineering
+- Engineering Documentation
