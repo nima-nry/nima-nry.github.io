@@ -28,16 +28,16 @@ The objective was to create a compact and manufacturable lifting attachment capa
 | Forklift Capacity | 3 tons |
 | Designed Load Capacity | 1.5 tons |
 | Maximum Reach | 2.5 m |
-| Safety Factor | 4 |
+| Safety Factor | >4 |
 | Extension Step | 100 mm |
 | Tilt Adjustment | 0°–45° |
-| Material | ST52 Steel |
+| Material | ST52 Structural Steel (Assumed) |
 
 ---
 
 ## CAD Development
 
-The complete assembly was designed using SolidWorks.
+The complete assembly was designed using SolidWorks 2024.
 
 The model includes:
 
@@ -62,7 +62,12 @@ Von Mises stress distribution was evaluated.
 ![Stress Analysis](images/stress.jpg)
 
 Maximum stress:
+
+```
 58.75 MPa
+```
+
+The obtained stress level indicates acceptable structural performance for the selected design conditions.
 
 ---
 
@@ -73,8 +78,12 @@ Maximum deformation was evaluated to ensure acceptable structural rigidity.
 ![Displacement Analysis](images/displacement.jpg)
 
 Maximum displacement:
-9.97 mm
 
+```
+9.97 mm
+```
+
+The deformation results were used to assess the stiffness of the structure under the applied loading condition.
 
 ---
 
@@ -96,6 +105,7 @@ The design was developed considering real manufacturing constraints:
 - Mechanical Design
 - CAD Modeling
 - Structural Analysis
+- Finite Element Analysis (FEA)
 
 ---
 
@@ -104,5 +114,5 @@ The design was developed considering real manufacturing constraints:
 - Mechanical System Design
 - 3D CAD Assembly
 - Structural Design
-- Finite Element Analysis (FEA)
+- Finite Element Analysis
 - Manufacturing-Oriented Engineering
