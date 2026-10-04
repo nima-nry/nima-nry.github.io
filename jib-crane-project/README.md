@@ -1,6 +1,6 @@
 # Telescopic Jib Crane Design for Forklift
 
-![Jib Crane](images/Hero.jpg)
+![Jib Crane](images/Hero.JPG)
 
 ## Overview
 
@@ -47,7 +47,7 @@ The model includes:
 - Reinforcement plates
 - Bolted connections
 
-![Design Detail](images/Detail.jpg)
+![Design Detail](images/Detail.JPG)
 
 ---
 
@@ -59,7 +59,7 @@ Static structural analysis was performed using SolidWorks Simulation to evaluate
 
 Von Mises stress distribution was evaluated.
 
-![Stress Analysis](images/Stress.jpg)
+![Stress Analysis](images/Stress.png)
 
 Maximum stress:
 
@@ -75,7 +75,7 @@ The obtained stress level indicates acceptable structural performance for the se
 
 Maximum deformation was evaluated to ensure acceptable structural rigidity.
 
-![Displacement Analysis](images/displacement.jpg)
+![Displacement Analysis](images/displacement.png)
 
 Maximum displacement:
 
